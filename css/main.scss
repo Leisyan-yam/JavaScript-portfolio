@@ -423,6 +423,7 @@ img{
             width: 60%;
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
             .sert{
                 width: 150px;
                 &:hover{
