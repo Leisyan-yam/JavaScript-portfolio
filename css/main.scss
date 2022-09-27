@@ -269,7 +269,8 @@ justify-content: center;
                     color: #25316D;
                     text-transform: uppercase;
                     @include devices{
-                        font-size: 20px;
+                        margin: 0;
+                        font-size: 18px;
                     }
                 } 
                 button{
@@ -279,11 +280,17 @@ justify-content: center;
                     width: 170px;
                     border-radius: 15px;
                     cursor: pointer;
+                    @include devices{
+                        padding: 5px;
+                    }
                         a{
                             text-decoration: none;
                             font-size: 15px;
                             color: #FEF5AC;
-                            @extend %about-font-grey
+                            @extend %about-font-grey;
+                            @include devices{
+                                font-size: 12px;
+                            }
                         }
                 }
                 p{
