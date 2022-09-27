@@ -374,6 +374,8 @@ body .about .serts .serts-names {
   width: 60%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 body .about .serts .serts-names .sert {
   width: 150px;
