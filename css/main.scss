@@ -81,7 +81,7 @@ header {
             margin: 6px 0;
             width: 35px;
             height: 3px;
-            background-color: #25316D;
+            background-color: #5F6F94;
             transition: 0.4s;
             }
       }
@@ -187,7 +187,7 @@ justify-content: center;
                 color: #D6C4C4;
                 @include devices{
                 font-size: 14px;
-                width: 60%;
+                width: 50%;
                 font-family: 'Roboto Mono', monospace;
             }
         }
@@ -412,6 +412,9 @@ img{
                 &:hover{
                     scale: 2.8;
                     transition: 1.2s;
+                    @include devices{
+                        scale: 1.8;
+                    }
                 }
                 }
 

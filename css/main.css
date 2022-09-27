@@ -55,7 +55,7 @@ body header .hamburger-icon div {
   margin: 6px 0;
   width: 35px;
   height: 3px;
-  background-color: #25316D;
+  background-color: #5F6F94;
   transition: 0.4s;
 }
 @media (max-width: 840px) {
@@ -149,7 +149,7 @@ body .menu .first-container .greeting {
 @media (max-width: 840px) {
   body .menu .first-container .greeting {
     font-size: 14px;
-    width: 60%;
+    width: 50%;
     font-family: "Roboto Mono", monospace;
   }
 }
@@ -359,6 +359,11 @@ body .about .serts .serts-names .sert {
 body .about .serts .serts-names .sert:hover {
   scale: 2.8;
   transition: 1.2s;
+}
+@media (max-width: 840px) {
+  body .about .serts .serts-names .sert:hover {
+    scale: 1.8;
+  }
 }
 body .footer {
   background-color: #FEF5AC;
