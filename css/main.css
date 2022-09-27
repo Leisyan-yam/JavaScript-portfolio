@@ -247,6 +247,10 @@ body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-titl
   border-radius: 15px;
   cursor: pointer;
 }
+body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-title .grid-item-title-components button:hover {
+  background-color: #1a1e36;
+  scale: 1.05;
+}
 @media (max-width: 840px) {
   body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-title .grid-item-title-components button {
     width: 140px;

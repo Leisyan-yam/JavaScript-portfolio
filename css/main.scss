@@ -280,6 +280,10 @@ justify-content: center;
                     width: 170px;
                     border-radius: 15px;
                     cursor: pointer;
+                    &:hover{
+                        background-color: #1a1e36;
+                        scale: 1.05;
+                    }
                     @include devices{
                         width: 140px;
                         padding: 5px;
