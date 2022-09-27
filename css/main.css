@@ -235,7 +235,7 @@ body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-titl
 }
 @media (max-width: 840px) {
   body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-title .grid-item-title-components h3 {
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     font-size: 18px;
   }
 }
@@ -249,6 +249,7 @@ body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-titl
 }
 @media (max-width: 840px) {
   body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-title .grid-item-title-components button {
+    width: 140px;
     padding: 5px;
     margin: 0;
   }
@@ -260,12 +261,12 @@ body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-titl
 }
 @media (max-width: 840px) {
   body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-title .grid-item-title-components button a {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 @media (max-width: 840px) {
   body .pink-field .gallery-grid .grid-item .grid-item-inner .grid-item-inner-title .grid-item-title-components p {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 body .pink-field .gallery-grid .grid-item .grid-item-inner:before {
