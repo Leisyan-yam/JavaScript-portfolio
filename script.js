@@ -8,7 +8,7 @@ gsap.from('h1', {opacity:0, duration: 2, stagger: 1} )
 
 
 gsap.to(".greeting",{
-    text: "Hi there! My name is Leisyan. I am Junior Front End developer.",
+    text: "Hi there! My name is Leisyan. I am Junior Frontend developer.",
     duration: 8,
     ease: "power1",
     delay: 2
