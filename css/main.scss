@@ -255,7 +255,7 @@ justify-content: center;
             width: 80%;
             text-align: center;
             @include devices{
-                bottom:20px;
+                bottom:31px;
                 left:45px
             }
             .grid-item-title-components {
@@ -269,7 +269,7 @@ justify-content: center;
                     color: #25316D;
                     text-transform: uppercase;
                     @include devices{
-                        margin: 0;
+                        margin-bottom: 10px;
                         font-size: 18px;
                     }
                 } 
@@ -282,6 +282,7 @@ justify-content: center;
                     cursor: pointer;
                     @include devices{
                         padding: 5px;
+                        margin: 0;
                     }
                         a{
                             text-decoration: none;
@@ -295,6 +296,9 @@ justify-content: center;
                 }
                 p{
                     @extend %about-font-blue-bold;
+                    @include devices{
+                        font-size: 13px;
+                    }
 
                 }
             }
