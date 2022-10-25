@@ -144,6 +144,7 @@ body .test .menu h1 {
   body .test .menu h1 {
     margin: 10px;
     font-size: 32px;
+    padding-top: 50px;
   }
 }
 body .test .menu .greets {
@@ -151,6 +152,11 @@ body .test .menu .greets {
   text-align: center;
   font-size: 17px;
   color: rgba(141, 69, 100, 0.8235294118);
+}
+@media (max-width: 840px) {
+  body .test .menu .greets {
+    padding: 10px;
+  }
 }
 body .test .menu .btn {
   margin-top: 70px;

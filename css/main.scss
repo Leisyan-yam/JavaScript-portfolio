@@ -195,6 +195,7 @@ body {
         @include devices{
             margin: 10px;
             font-size: 32px;
+            padding-top: 50px;
         }
         }
 
@@ -204,6 +205,9 @@ body {
         text-align: center;
         font-size: 17px;
         color: #8d4564d2;
+        @include devices{
+            padding: 10px;
+        }
     }
 
 
