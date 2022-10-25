@@ -144,7 +144,7 @@ body .test .menu h1 {
   body .test .menu h1 {
     margin: 10px;
     font-size: 32px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 }
 body .test .menu .greets {
@@ -155,7 +155,7 @@ body .test .menu .greets {
 }
 @media (max-width: 840px) {
   body .test .menu .greets {
-    padding: 10px;
+    width: 300px;
   }
 }
 body .test .menu .btn {
